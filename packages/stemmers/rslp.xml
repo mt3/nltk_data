@@ -1,5 +1,5 @@
 <package id='rslp' 
          name='RSLP Stemmer (Removedor de Sufixos da Lingua Portuguesa)'
-         author="Viviane Moreira Orengo <vmorengo@inf.ufrgs.br> and Christian Huyck"
+         author="Viviane Moreira Orengo (vmorengo@inf.ufrgs.br) and Christian Huyck"
          languages="Portuguese"
          />
