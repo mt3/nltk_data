@@ -1,0 +1,4 @@
+<package id='unicode_samples' 
+         name='Unicode Samples'
+         note='A very small corpus used to demonstrate unicode encoding in chapter 10 of the book'
+         />
