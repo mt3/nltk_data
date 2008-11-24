@@ -3,10 +3,11 @@
     <xsl:template match="/nltk_data">
         <HTML>
             <HEAD>
-                <TITLE>NLTK Corpora</TITLE>
+                <TITLE>NLTK Data</TITLE>
             </HEAD>
             <BODY bgcolor="white" text="navy">
                 <H1>NLTK Corpora</H1>
+                <P>NLTK has built-in support for dozens of corpora and trained models, as listed below:</P>
                 <OL>
                 <xsl:for-each select="//packages/package">
                     <LI><I><xsl:value-of select="@name"/></I>
@@ -26,11 +27,14 @@
                         id: <xsl:value-of select="@id"/>;
                         size: <xsl:value-of select="@size"/>;
                         author: <xsl:value-of select="@author"/>;
+                        copyright: <xsl:value-of select="@copyright"/>;
                         license: <xsl:value-of select="@license"/>;
                         <P/>
                     </LI>
                 </xsl:for-each>
                 </OL>
+                <HR/>
+                <A href="http://www.nltk.org">Natural Language Toolkit</A>
             </BODY>
         </HTML>
     </xsl:template>
