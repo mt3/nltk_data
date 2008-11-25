@@ -2,10 +2,10 @@
 <?xml-stylesheet href="index.xsl" type="text/xsl"?>
 <nltk_data>
   <packages>
-    <package checksum="ffb36b67ff24cbf7daaf171c897eb904" id="abc" name="Australian Broadcasting Commission 2006" size="1487851" subdir="corpora" unzipped_size="4054966" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/abc.zip" webpage="http://www.abc.net.au/" />
+    <package author="Australian Broadcasting Commission" checksum="ffb36b67ff24cbf7daaf171c897eb904" id="abc" name="Australian Broadcasting Commission 2006" size="1487851" subdir="corpora" unzipped_size="4054966" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/abc.zip" webpage="http://www.abc.net.au/" />
     <package checksum="63254e4e055781a1783311d8569ac0a3" contact="Gertjan Van Noord" id="alpino" license="Distributed with permission of Gertjan Van Noord" name="Alpino Dutch Treebank" size="2797202" subdir="corpora" unzipped_size="21604821" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/alpino.zip" webpage="http://www.let.rug.nl/~vannoord/trees/" />
     <package checksum="d3be36b53ab201372f1cd63ffc75e9a9" copyright="Public Domain (not copyrighted)" id="biocreative_ppi" license="Public Domain" name="BioCreAtIvE (Critical Assessment of Information Extraction Systems in Biology)" size="223566" subdir="corpora" unzipped_size="1537086" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/biocreative_ppi.zip" webpage="http://www.mitre.org/public/biocreative/" />
-    <package author="W. N. Francis and H. Kucera" checksum="59df294bc8b7445de4ee8f8d6b4d353a" copyright="Distributed with the permission of the copyright holder, redistribution permitted." id="brown" name="Brown Corpus" size="3313563" subdir="corpora" unzipped_size="10143987" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/brown.zip" webpage="http://www.hit.uib.no/icame/brown/bcm.html" />
+    <package author="W. N. Francis and H. Kucera" checksum="59df294bc8b7445de4ee8f8d6b4d353a" id="brown" license="May be used for non-commercial purposes." name="Brown Corpus" size="3313563" subdir="corpora" unzipped_size="10143987" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/brown.zip" webpage="http://www.hit.uib.no/icame/brown/bcm.html" />
     <package checksum="e91ac59ec6e98e3b297e2d2eab83084d" id="cess_cat" license="If you use these corpora for research, please cite thusly: CESS-Cat project (M. Antonia Mart&#237;, MarionaTaul&#233;, Llu&#237;s M&#225;rquez, Manuel Bertran (2007) ?CESS-ECE: A Multilingual and Multilevel Annotated Corpus? in http://www.lsi.upc.edu/~mbertran/cess-ece/publications)." name="CESS-CAT Treebank" size="5396688" subdir="corpora" unzipped_size="33720460" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/cess_cat.zip" webpage="http://clic.ub.edu/cessece/" />
     <package checksum="684432d4f6384b8f0bd19fee5dc15925" id="cess_esp" license="If you use these corpora for research, please cite thusly: CESS-Cat project (M. Antonia Mart&#237;, MarionaTaul&#233;, Llu&#237;s M&#225;rquez, Manuel Bertran (2007) ?CESS-ECE: A Multilingual and Multilevel Annotated Corpus? in http://www.lsi.upc.edu/~mbertran/cess-ece/publications)." name="CESS-ESP Treebank" size="2220392" subdir="corpora" unzipped_size="13233272" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/cess_esp.zip" webpage="http://clic.ub.edu/cessece/" />
     <package author="David Warren and Fernando Pereira" checksum="6832873fe92996846ac5bb21c5d84eb8" copyright="Copyright (C) 1982 David Warren and Fernando Pereira" id="chat80" license="This program may be used, copied, altered or included in other programs only for academic purposes and provided that the authorship of the initial program is aknowledged.  Use for commercial purposes without the previous written agreement of the authors is forbidden." name="Chat-80 Data Files" size="19209" subdir="corpora" unzipped_size="63817" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/chat80.zip" webpage="http://www.cis.upenn.edu/~pereira/oldies.html" />
@@ -13,7 +13,7 @@
     <package checksum="4ea94dbcaae9c8fd6d6765d1ef777014" copyright="Copyright 1998 Carnegie Mellon University" id="cmudict" license="Use of this dictionary, for any research or commercial purpose, is completely unrestricted.  If you use or redistribute this material, we would appreciate acknowlegement of its origin." name="The Carnegie Mellon Pronouncing Dictionary (0.6)" size="850995" subdir="corpora" unzipped_size="3614065" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/cmudict.zip" webpage="ftp://ftp.cs.cmu.edu/project/speech/dict/" />
     <package checksum="9529b285edd5fe47271da69df1052301" contact="Erik Tjong Kim Sang (erikt@uia.ua.ac.be)" id="conll2000" name="CONLL 2000 Chunking Corpus" size="756607" subdir="corpora" unzipped_size="3495903" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2000.zip" webpage="http://www.cnts.ua.ac.be/conll2000/chunking/" />
     <package checksum="67bb4ca75fa81544d42a159524726e78" id="conll2002" name="CONLL 2002 Named Entity Recognition Corpus" size="1867449" subdir="corpora" unzipped_size="7785638" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2002.zip" webpage="http://www.cnts.ua.ac.be/conll2002/ner/" />
-    <package checksum="de5f1df09949f080e0f616f0bc55967d" id="floresta" license="Distributed with permission" name="Portuguese Treebank" size="1882021" subdir="corpora" unzipped_size="16414136" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/floresta.zip" webpage="http://www.linguateca.pt/Floresta/" />
+    <package checksum="de5f1df09949f080e0f616f0bc55967d" id="floresta" license="Non-commercial use only" name="Portuguese Treebank" size="1882021" subdir="corpora" unzipped_size="16414136" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/floresta.zip" webpage="http://www.linguateca.pt/Floresta/" />
     <package checksum="1dd15c714a2be985c482a13d90e9caa4" id="gazetteers" license="GNU Free Documentation License; or public domain (depending on the file)" name="Gazeteer Lists" size="8265" subdir="corpora" unzipped_size="12711" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/gazetteers.zip" />
     <package checksum="485192f8b109858244983874d3f1950e" copyright="public domain" id="genesis" license="public domain" name="Genesis Corpus" size="383362" subdir="corpora" unzipped_size="1164588" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/genesis.zip" />
     <package checksum="08e4dc7cbf7535bc4703da9303899d19" copyright="public domain" id="gutenberg" license="public domain" name="Project Gutenberg Selections" size="3789737" subdir="corpora" unzipped_size="10533351" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/gutenberg.zip" webpage="http://gutenberg.net/" />
@@ -94,12 +94,32 @@
       <item ref="treebank" />
       <item ref="verbnet" />
       <item ref="webtext" />
+      <item ref="wordnet" />
       <item ref="wordnet_ic" />
       <item ref="words" />
       <item ref="ycoe" />
     </collection>
-    <collection id="*Book*" name="Everything that&apos;s used in the nltk book">
-      <item ref="all-corpora" />
+    <collection id="book" name="Everything that&apos;s used in the nltk book">
+      <item ref="brown" />
+      <item ref="chat80" />
+      <item ref="cmudict" />
+      <item ref="conll2000" />
+      <item ref="conll2002" />
+      <item ref="genesis" />
+      <item ref="gutenberg" />
+      <item ref="ieer" />
+      <item ref="inaugural" />
+      <item ref="movie_reviews" />
+      <item ref="names" />
+      <item ref="ppattach" />
+      <item ref="reuters" />
+      <item ref="state_union" />
+      <item ref="stopwords" />
+      <item ref="treebank" />
+      <item ref="webtext" />
+      <item ref="wordnet" />
+      <item ref="wordnet_ic" />
+      <item ref="words" />
     </collection>
   </collections>
 </nltk_data>
