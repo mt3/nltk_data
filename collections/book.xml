@@ -1,4 +1,4 @@
-<collection id="*Book*" name="Everything that's used in the nltk book">
+<collection id="book" name="Everything that's used in the nltk book">
     <item ref="brown"/>
     <item ref="chat80"/>
     <item ref="cmudict"/>
@@ -11,7 +11,6 @@
     <item ref="movie_reviews"/>
     <item ref="names"/>
     <item ref="ppattach"/>
-    <item ref="qc"/>
     <item ref="reuters"/>
     <item ref="state_union"/>
     <item ref="stopwords"/>
