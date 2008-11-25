@@ -1,3 +1,23 @@
 <collection id="*Book*" name="Everything that's used in the nltk book">
-    <item ref="all-corpora"/>
+    <item ref="brown"/>
+    <item ref="chat80"/>
+    <item ref="cmudict"/>
+    <item ref="conll2000"/>
+    <item ref="conll2002"/>
+    <item ref="genesis"/>
+    <item ref="gutenberg"/>
+    <item ref="ieer"/>
+    <item ref="inaugural"/>
+    <item ref="movie_reviews"/>
+    <item ref="names"/>
+    <item ref="ppattach"/>
+    <item ref="qc"/>
+    <item ref="reuters"/>
+    <item ref="state_union"/>
+    <item ref="stopwords"/>
+    <item ref="treebank"/>
+    <item ref="webtext"/>
+    <item ref="wordnet"/>
+    <item ref="wordnet_ic"/>
+    <item ref="words"/>
 </collection>

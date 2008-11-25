@@ -36,6 +36,7 @@
     <item ref="treebank"/>
     <item ref="verbnet"/>
     <item ref="webtext"/>
+    <item ref="wordnet"/>
     <item ref="wordnet_ic"/>
     <item ref="words"/>
     <item ref="ycoe"/>
