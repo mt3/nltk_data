@@ -16,20 +16,20 @@
 # Grammar Rules
 #############################
 
-S[sem = <app(?subj,?vp)>] -> NP[num=?n,sem=?subj] VP[num=?n,sem=?vp]
+S[sem = <?subj(?vp)>] -> NP[num=?n,sem=?subj] VP[num=?n,sem=?vp]
 
-NP[num=?n,sem=<app(?det,?nom)> ] -> Det[num=?n,sem=?det]  Nom[num=?n,sem=?nom]
+NP[num=?n,sem=<?det(?nom)> ] -> Det[num=?n,sem=?det]  Nom[num=?n,sem=?nom]
 NP[loc=?l,num=?n,sem=?np] -> PropN[loc=?l,num=?n,sem=?np]
 
 Nom[num=?n,sem=?nom] -> N[num=?n,sem=?nom]
-Nom[num=?n,sem=<app(?pp,?nom)>] -> N[num=?n,sem=?nom] PP[sem=?pp]
+Nom[num=?n,sem=<?pp(?nom)>] -> N[num=?n,sem=?nom] PP[sem=?pp]
 
-VP[num=?n,sem=<app(?v,?obj)>] -> TV[num=?n,sem=?v] NP[sem=?obj]
+VP[num=?n,sem=<?v(?obj)>] -> TV[num=?n,sem=?v] NP[sem=?obj]
 VP[num=?n,sem=?v] -> IV[num=?n,sem=?v]
 
-VP[num=?n,sem=<app(?pp,?vp)>] -> VP[num=?n,sem=?vp] PP[sem=?pp]
+VP[num=?n,sem=<?pp(?vp)>] -> VP[num=?n,sem=?vp] PP[sem=?pp]
 
-PP[sem=<app(?p,?np)>] -> P[loc=?l,sem=?p] NP[loc=?l,sem=?np]
+PP[sem=<?p(?np)>] -> P[loc=?l,sem=?p] NP[loc=?l,sem=?np]
 
 #############################
 # Lexical Rules
