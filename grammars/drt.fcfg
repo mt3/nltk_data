@@ -24,6 +24,8 @@ VP[num=?n,sem=<app(?v,?obj)>] -> TV[num=?n,sem=?v] NP[sem=?obj]
 # Lexical Rules
 #############################
 
+PropN[-loc,num=sg,sem=<\P.(DRS([x],[Angus(x)])+P(x))>] -> 'Angus'
+PropN[-loc,num=sg,sem=<\P.(DRS([x],[Irene(x)])+P(x))>] -> 'Irene'
 PropN[-loc,num=sg,sem=<\P.(DRS([x],[John(x)])+P(x))>] -> 'John'
 PropN[-loc,num=sg,sem=<\P.(DRS([x],[Mary(x)])+P(x))>] -> 'Mary'
 PropN[-loc,num=sg,sem=<\P.(DRS([x],[Suzie(x)])+P(x))>] -> 'Suzie'
@@ -34,6 +36,7 @@ PropN[-loc,num=sg,sem=<\P.(DRS([x],[Fido(x)])+P(x))>] -> 'Fido'
 PropN[+loc,num=sg,sem=<\P.(DRS([x],[Noosa(x)])+P(x))>] -> 'Noosa'
 PropN[-loc,num=sg,sem=<\P.(DRS([x],[PRO(x)])+P(x))>] -> 'he'
 PropN[-loc,num=sg,sem=<\P.(DRS([x],[PRO(x)])+P(x))>] -> 'she'
+PropN[-loc,num=sg,sem=<\P.(DRS([x],[PRO(x)])+P(x))>] -> 'it'
 
 Det[num=sg,sem=<\P Q.DRS([],[((DRS([x],[])+P(x)) implies Q(x))])>] -> 'every' | 'Every' 
 Det[num=pl,sem=<\P Q.DRS([],[((DRS([x],[])+P(x)) implies Q(x))])>] -> 'all' | 'All'
@@ -65,6 +68,10 @@ IV[num=pl,sem=<\x.DRS([],[walk(x)])>,tns=pres] -> 'walk'
 IV[num=pl,sem=<\x.DRS([],[dance(x)])>,tns=pres] -> 'dance'
 IV[num=sg,sem=<\x.DRS([],[dance(x)])>,tns=pres] -> 'dances'
 
+TV[num=sg,sem=<\X x. X(\y.DRS([],[own(x,y)]))>,tns=pres] -> 'owns'
+TV[num=pl,sem=<\X x. X(\y.DRS([],[own(x,y)]))>,tns=pres] -> 'own'
+TV[num=sg,sem=<\X x. X(\y.DRS([],[bite(x,y)]))>,tns=pres] -> 'bites'
+TV[num=pl,sem=<\X x. X(\y.DRS([],[bite(x,y)]))>,tns=pres] -> 'bite'
 TV[num=sg,sem=<\X x. X(\y.DRS([],[chase(x,y)]))>,tns=pres] -> 'chases'
 TV[num=pl,sem=<\X x. X(\y.DRS([],[chase(x,y)]))>,tns=pres] -> 'chase'
 TV[num=sg,sem=<\X x. X(\y.DRS([],[marry(x,y)]))>,tns=pres] -> 'marries'
