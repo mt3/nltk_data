@@ -1,12 +1,13 @@
-## Natural Language Toolkit: bindop.fcfg
+## Natural Language Toolkit: storage.fcfg
 ##
-## Feature-based grammar that divides the semantics for each element
-## into two pieces: the core semantics ('sem','core') and a set of
-## binding operators ('sem','bo').  Each binding operator is encoded
-## as a lambda-calculus expression <(bo @var predicate)>, specifying
-## that <@var> is an individual variable that should be instantiated,
-## and <predicate> is a predicate describing that variable.
-##
+## Feature-based grammar that implements Cooper storage by dividing the
+## semantics for each phrase into two pieces: the core semantics
+## ('sem','core') and a sequence of binding operators ('sem','store').
+## Each binding operator is encoded as a logic term <bo(quant, var)>,
+## where <quant> is a quantifier expression and the individual variable
+## <@var> specifies the 'address' of the quantifier in the core
+## semantics.  and <predicate> is a predicate describing that variable.
+
 ## In order for this grammar to generate the correct results, all
 ## variables of the form <@var> must be instantiated (i.e., replaced
 ## by unique new variables) whenever they are used.  This can be
