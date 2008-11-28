@@ -7,7 +7,9 @@
             </HEAD>
             <BODY bgcolor="white" text="navy">
                 <H1>NLTK Corpora</H1>
-                <P>NLTK has built-in support for dozens of corpora and trained models, as listed below:</P>
+                <P>NLTK has built-in support for dozens of corpora and trained models, as listed below.
+                To use these within NLTK we recommend that you use the NLTK corpus downloader,
+                <TT>&gt;&gt;&gt; nltk.download_shell()</TT></P>
                 <OL>
                 <xsl:for-each select="//packages/package">
                     <LI><I><xsl:value-of select="@name"/></I>
