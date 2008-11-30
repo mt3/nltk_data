@@ -23,4 +23,5 @@
     <item ref="wordnet"/>
     <item ref="wordnet_ic"/>
     <item ref="words"/>
+    <item ref="punkt"/>
 </collection>

@@ -1,5 +1,7 @@
 Data Distribution for NLTK 0.9.6
 
-For instructions please see http://nltk.org/download.html
+Install using NLTK downloader: nltk.download()
+
+For instructions please see http://www.nltk.org/
 
 
