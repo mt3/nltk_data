@@ -9,12 +9,16 @@
     <item ref="ieer"/>
     <item ref="inaugural"/>
     <item ref="movie_reviews"/>
+    <item ref="nps_chat"/>
     <item ref="names"/>
     <item ref="ppattach"/>
     <item ref="reuters"/>
     <item ref="state_union"/>
     <item ref="stopwords"/>
+    <item ref="swadesh"/>
     <item ref="treebank"/>
+    <item ref="toolbox"/>
+    <item ref="udhr"/>
     <item ref="webtext"/>
     <item ref="wordnet"/>
     <item ref="wordnet_ic"/>
