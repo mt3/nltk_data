@@ -1,4 +1,4 @@
-<collection id="book" name="Everything that's used in the nltk book">
+<collection id="book" name="Everything used in the NLTK Book">
     <item ref="brown"/>
     <item ref="chat80"/>
     <item ref="cmudict"/>
@@ -24,4 +24,5 @@
     <item ref="wordnet_ic"/>
     <item ref="words"/>
     <item ref="punkt"/>
+    <item ref="book_grammars"/>
 </collection>

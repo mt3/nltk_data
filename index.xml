@@ -51,6 +51,8 @@
     <package checksum="25f0185b31693fa11ea898e4feda528c" id="wordnet_ic" name="WordNet-InfoContent" size="12056682" subdir="corpora" unzipped_size="34220359" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/wordnet_ic.zip" version="3.0" webpage="http://wn-similarity.sourceforge.net" />
     <package checksum="dc6d4f233a924ddcc40ac3616953bb59" copyright="public domain" id="words" license="public domain" name="Word Lists" size="755110" subdir="corpora" unzipped_size="2492213" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/words.zip" />
     <package available="False" checksum="6582cd98ca26c35d9c4eaaa4350ce8f3" id="ycoe" name="York-Toronto-Helsinki Parsed Corpus of Old English Prose" size="477" subdir="corpora" unzipped_size="277" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/ycoe.zip" webpage="http://www.ota.ahds.ac.uk/" />
+    <package author="Ewan Klein" checksum="16c50e0b15a9cb8fd31b13a030ec703f" id="book_grammars" languages="English" name="Grammars from NLTK Book" size="5937" subdir="grammars" unzipped_size="14296" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/book_grammars.zip" />
+    <package author="" checksum="938e36e101229b4c9f4bea909769adcd" id="sample_grammars" languages="English" name="Sample Grammars" size="21439" subdir="grammars" unzipped_size="65517" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/sample_grammars.zip" />
     <package author="Viviane Moreira Orengo (vmorengo@inf.ufrgs.br) and Christian Huyck" checksum="648798996224694251834699fa6e55f7" id="rslp" languages="Portuguese" name="RSLP Stemmer (Removedor de Sufixos da Lingua Portuguesa)" size="3805" subdir="stemmers" unzipped_size="7269" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/stemmers/rslp.zip" />
     <package checksum="bcdc9be365086a5ed89f89a07d4a3fd7" id="treebank_tagger" languages="English" name="Treebank Part of Speech Tagger" size="750825" subdir="taggers" unzipped_size="750354" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/treebank_tagger.zip" />
     <package checksum="aefd87f58fd620ddd0056633220c98d0" id="punkt" languages="English" name="Punkt Tokenizer Models" size="198417" subdir="tokenizers" unzipped_size="470114" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/tokenizers/punkt.zip" />
@@ -107,6 +109,62 @@
       <item ref="words" />
       <item ref="ycoe" />
     </collection>
+    <collection id="all" name="All packages">
+      <item ref="abc" />
+      <item ref="alpino" />
+      <item ref="biocreative_ppi" />
+      <item ref="brown" />
+      <item ref="cess_cat" />
+      <item ref="cess_esp" />
+      <item ref="chat80" />
+      <item ref="city_database" />
+      <item ref="cmudict" />
+      <item ref="conll2000" />
+      <item ref="conll2002" />
+      <item ref="floresta" />
+      <item ref="gazetteers" />
+      <item ref="genesis" />
+      <item ref="gutenberg" />
+      <item ref="ieer" />
+      <item ref="inaugural" />
+      <item ref="indian" />
+      <item ref="kimmo" />
+      <item ref="mac_morpho" />
+      <item ref="movie_reviews" />
+      <item ref="names" />
+      <item ref="nps_chat" />
+      <item ref="paradigms" />
+      <item ref="pil" />
+      <item ref="ppattach" />
+      <item ref="problem_reports" />
+      <item ref="propbank" />
+      <item ref="qc" />
+      <item ref="reuters" />
+      <item ref="rte" />
+      <item ref="senseval" />
+      <item ref="shakespeare" />
+      <item ref="sinica_treebank" />
+      <item ref="state_union" />
+      <item ref="stopwords" />
+      <item ref="swadesh" />
+      <item ref="switchboard" />
+      <item ref="timit" />
+      <item ref="toolbox" />
+      <item ref="treebank" />
+      <item ref="udhr" />
+      <item ref="unicode_samples" />
+      <item ref="verbnet" />
+      <item ref="webtext" />
+      <item ref="wordnet" />
+      <item ref="wordnet_ic" />
+      <item ref="words" />
+      <item ref="ycoe" />
+      <item ref="rslp" />
+      <item ref="treebank_tagger" />
+      <item ref="punkt" />
+      <item ref="book_grammars" />
+      <item ref="sample_grammars" />
+    </collection>
     <collection id="book" name="Everything that&apos;s used in the nltk book">
       <item ref="brown" />
       <item ref="chat80" />
@@ -132,6 +190,8 @@
       <item ref="wordnet" />
       <item ref="wordnet_ic" />
       <item ref="words" />
+      <item ref="punkt" />
+      <item ref="book_grammars" />
     </collection>
   </collections>
 </nltk_data>
