@@ -1,4 +1,5 @@
 <package id='punkt' 
          name='Punkt Tokenizer Models'
          languages="English"
+         unzip="1"
          />

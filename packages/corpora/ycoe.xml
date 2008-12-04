@@ -2,4 +2,5 @@
          name='York-Toronto-Helsinki Parsed Corpus of Old English Prose'
          webpage='http://www.ota.ahds.ac.uk/'
          available='False'
+         unzip="0"
          />

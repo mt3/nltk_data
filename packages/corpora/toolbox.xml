@@ -1,1 +1,4 @@
-<package id='toolbox' name='Toolbox Sample Files'/>
+<package id="toolbox"
+         name="Toolbox Sample Files"
+         unzip="0"
+         />

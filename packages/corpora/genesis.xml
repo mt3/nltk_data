@@ -1,3 +1,5 @@
-<package id='genesis' name='Genesis Corpus'
-         copyright='public domain'
-         license='public domain'/>
+<package id="genesis" name="Genesis Corpus"
+         copyright="public domain"
+         license="public domain"
+         unzip="0"
+         />

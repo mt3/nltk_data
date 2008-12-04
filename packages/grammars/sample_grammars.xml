@@ -1,5 +1,6 @@
 <package id="sample_grammars" 
-    name="Sample Grammars"
-    author=""
-    languages="English"
-/>
+         name="Sample Grammars"
+         author=""
+         languages="English"
+         unzip="0"
+         />

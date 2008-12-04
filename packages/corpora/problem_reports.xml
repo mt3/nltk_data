@@ -1,4 +1,5 @@
-<package id='problem_reports' name='Problem Report Corpus'
-         webpage='http://www.cs.cmu.edu/~marmalade/reports.html'
-         author='Andrew Ko, Carnegie Mellon University'
+<package id="problem_reports" name="Problem Report Corpus"
+         webpage="http://www.cs.cmu.edu/~marmalade/reports.html"
+         author="Andrew Ko, Carnegie Mellon University"
+         unzip="0"
          />
