@@ -53,4 +53,6 @@
     <item ref="punkt"/>
     <item ref="book_grammars"/>
     <item ref="sample_grammars"/>
+    <item ref="spanish_grammars"/>
+    <item ref="basque_grammars"/>
 </collection>
