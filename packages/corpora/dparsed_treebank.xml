@@ -1,6 +1,0 @@
-<package id="dparsed_treebank" name="Dependency Parsed Treebank"
-         sample="True"
-         copyright="Copyright (C) 1995 University of Pennsylvania"
-         license="This is the 10% selection of the WSJ section of Penn Treebank, (C) LDC 1995, available for use in the NLTK, but parsed into a dependency parsing format using Yamada's treebank converter (http://www.jaist.ac.jp/~h-yamada/).  Whereas this converter will list the root (the head of the sentence, and not a dummy root symbol) as having index 1, these have been modified to match CoNLL format (http://nextens.uvt.nl/~conll/example.html) where the root has index 0.  Use of this data must obey all conditions applicable to the LDC corpus it is build from, and is for non-commercial use only."
-         unzip="0"
-         />
