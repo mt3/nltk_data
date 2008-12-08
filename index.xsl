@@ -26,7 +26,7 @@
                             source
                         </xsl:element>]
                         <BR/>
-                        id: <xsl:value-of select="@id"/>;
+                        id: <tt><xsl:value-of select="@id"/></tt>;
                         size: <xsl:value-of select="@size"/>;
                         author: <xsl:value-of select="@author"/>;
                         copyright: <xsl:value-of select="@copyright"/>;
