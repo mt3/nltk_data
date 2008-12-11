@@ -1,5 +1,5 @@
 <package id="kimmo" name="PC-KIMMO Data Files"
          webpage="http://www.sil.org/pckimmo/"
-         unzip="0"
+         unzip="1"
          />
 

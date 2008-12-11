@@ -2,5 +2,5 @@
          name="Grammars from NLTK Book"
          author="Ewan Klein"
          languages="English"
-         unzip="0"
+         unzip="1"
          />
