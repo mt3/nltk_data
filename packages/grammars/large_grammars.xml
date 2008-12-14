@@ -1,0 +1,8 @@
+<package id="large_grammars" 
+         name="Large context-free grammars for parser comparison"
+	 webpage="http://www.informatics.sussex.ac.uk/research/groups/nlp/carroll/cfg-resources/index.html"
+         contact="John A. Carroll and Robert C. Moore"
+	 license="See the individual grammar files"
+         languages="English"
+         unzip="1"
+         />
