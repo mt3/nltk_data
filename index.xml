@@ -170,6 +170,7 @@
       <item ref="sample_grammars" />
       <item ref="spanish_grammars" />
       <item ref="basque_grammars" />
+      <item ref="large_grammars" />
     </collection>
     <collection id="book" name="Everything used in the NLTK Book">
       <item ref="brown" />

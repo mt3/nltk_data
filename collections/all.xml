@@ -55,4 +55,5 @@
     <item ref="sample_grammars"/>
     <item ref="spanish_grammars"/>
     <item ref="basque_grammars"/>
+    <item ref="large_grammars"/>
 </collection>
