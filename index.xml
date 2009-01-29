@@ -13,6 +13,7 @@
     <package checksum="4ea94dbcaae9c8fd6d6765d1ef777014" copyright="Copyright 1998 Carnegie Mellon University" id="cmudict" license="Use of this dictionary, for any research or commercial purpose, is completely unrestricted.  If you use or redistribute this material, we would appreciate acknowlegement of its origin." name="The Carnegie Mellon Pronouncing Dictionary (0.6)" size="850995" subdir="corpora" unzip="1" unzipped_size="3614065" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/cmudict.zip" webpage="ftp://ftp.cs.cmu.edu/project/speech/dict/" />
     <package checksum="9529b285edd5fe47271da69df1052301" contact="Erik Tjong Kim Sang (erikt@uia.ua.ac.be)" id="conll2000" name="CONLL 2000 Chunking Corpus" size="756607" subdir="corpora" unzip="1" unzipped_size="3495903" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2000.zip" webpage="http://www.cnts.ua.ac.be/conll2000/chunking/" />
     <package checksum="67bb4ca75fa81544d42a159524726e78" id="conll2002" name="CONLL 2002 Named Entity Recognition Corpus" size="1867449" subdir="corpora" unzip="1" unzipped_size="7785638" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2002.zip" webpage="http://www.cnts.ua.ac.be/conll2002/ner/" />
+    <package checksum="dbae68a506f71807af0529670fb4ce36" contact="TBD" id="conll2007" name="Dependency Treebanks from CoNLL 2007 (subset)" size="1242958" subdir="corpora" unzip="0" unzipped_size="6399295" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2007.zip" webpage="http://nextens.uvt.nl/depparse-wiki/DataDownload" />
     <package checksum="6e2d63cf6d5604adbb62659ccef6d793" copyright="Copyright (C) 1995 University of Pennsylvania" id="dependency_treebank" license="This is a 10% fragment of Penn Treebank, (C) LDC 1995, which has been dependency parsed.  It is made available under fair use for the purposes of illustrating NLTK tools for tokenizing, tagging, chunking and parsing.  This data is for non-commercial use only." name="Dependency Parsed Treebank" sample="True" size="459621" subdir="corpora" unzip="1" unzipped_size="1073704" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/dependency_treebank.zip" />
     <package checksum="de5f1df09949f080e0f616f0bc55967d" id="floresta" license="Non-commercial use only" name="Portuguese Treebank" size="1882021" subdir="corpora" unzip="1" unzipped_size="16414136" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/floresta.zip" webpage="http://www.linguateca.pt/Floresta/" />
     <package checksum="1dd15c714a2be985c482a13d90e9caa4" id="gazetteers" license="GNU Free Documentation License; or public domain (depending on the file)" name="Gazeteer Lists" size="8265" subdir="corpora" unzip="1" unzipped_size="12711" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/gazetteers.zip" />
@@ -60,7 +61,7 @@
     <package author="Kepa Sarasola" checksum="12f66b8e22beadd6ed202e95453465af" id="spanish_grammars" languages="Spanish" name="Grammars for Spanish" size="4047" subdir="grammars" unzip="1" unzipped_size="3980" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/spanish_grammars.zip" />
     <package author="Viviane Moreira Orengo (vmorengo@inf.ufrgs.br) and Christian Huyck" checksum="648798996224694251834699fa6e55f7" id="rslp" languages="Portuguese" name="RSLP Stemmer (Removedor de Sufixos da Lingua Portuguesa)" size="3805" subdir="stemmers" unzip="1" unzipped_size="7269" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/stemmers/rslp.zip" />
     <package checksum="bcdc9be365086a5ed89f89a07d4a3fd7" id="treebank_tagger" languages="English" name="Treebank Part of Speech Tagger" size="750825" subdir="taggers" unzip="1" unzipped_size="750354" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/treebank_tagger.zip" />
-    <package checksum="aefd87f58fd620ddd0056633220c98d0" id="punkt" languages="English" name="Punkt Tokenizer Models" size="198417" subdir="tokenizers" unzip="1" unzipped_size="470114" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/tokenizers/punkt.zip" />
+    <package checksum="d596a7bb6505a79e964468d0e95a0608" id="punkt" languages="English" name="Punkt Tokenizer Models" size="188586" subdir="tokenizers" unzip="1" unzipped_size="522770" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/tokenizers/punkt.zip" />
   </packages>
   <collections>
     <collection id="all-corpora" name="All the corpora">
@@ -75,6 +76,7 @@
       <item ref="cmudict" />
       <item ref="conll2000" />
       <item ref="conll2002" />
+      <item ref="conll2007" />
       <item ref="floresta" />
       <item ref="gazetteers" />
       <item ref="genesis" />
@@ -126,6 +128,7 @@
       <item ref="cmudict" />
       <item ref="conll2000" />
       <item ref="conll2002" />
+      <item ref="conll2007" />
       <item ref="floresta" />
       <item ref="gazetteers" />
       <item ref="genesis" />
