@@ -11,6 +11,7 @@
     <item ref="conll2000"/>
     <item ref="conll2002"/>
     <item ref="conll2007"/>
+    <item ref="dependency_treebank"/>
     <item ref="floresta"/>
     <item ref="gazetteers"/>
     <item ref="genesis"/>

@@ -4,6 +4,7 @@
     <item ref="cmudict"/>
     <item ref="conll2000"/>
     <item ref="conll2002"/>
+    <item ref="dependency_treebank"/>
     <item ref="genesis"/>
     <item ref="gutenberg"/>
     <item ref="ieer"/>
