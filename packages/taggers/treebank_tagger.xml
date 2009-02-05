@@ -1,5 +1,0 @@
-<package id='treebank_tagger' 
-         name='Treebank Part of Speech Tagger'
-         languages="English"
-         unzip="1"
-         />
