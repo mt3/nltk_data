@@ -60,7 +60,8 @@
     <package author="" checksum="065169b167ccf8fba0e41a56c0ac0ff0" id="sample_grammars" languages="English" name="Sample Grammars" size="21361" subdir="grammars" unzip="1" unzipped_size="65231" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/sample_grammars.zip" />
     <package author="Kepa Sarasola" checksum="12f66b8e22beadd6ed202e95453465af" id="spanish_grammars" languages="Spanish" name="Grammars for Spanish" size="4047" subdir="grammars" unzip="1" unzipped_size="3980" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/spanish_grammars.zip" />
     <package author="Viviane Moreira Orengo (vmorengo@inf.ufrgs.br) and Christian Huyck" checksum="648798996224694251834699fa6e55f7" id="rslp" languages="Portuguese" name="RSLP Stemmer (Removedor de Sufixos da Lingua Portuguesa)" size="3805" subdir="stemmers" unzip="1" unzipped_size="7269" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/stemmers/rslp.zip" />
-    <package checksum="bcdc9be365086a5ed89f89a07d4a3fd7" id="treebank_tagger" languages="English" name="Treebank Part of Speech Tagger" size="750825" subdir="taggers" unzip="1" unzipped_size="750354" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/treebank_tagger.zip" />
+    <package checksum="b879eaf39f3dbb97c551e9df5db93ec9" id="hmm_treebank_pos_tagger" languages="English" name="Treebank Part of Speech Tagger (HMM)" size="750857" subdir="taggers" unzip="1" unzipped_size="750354" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/hmm_treebank_pos_tagger.zip" />
+    <package checksum="eb10d0766b03c83123a6d2b297ba9da2" id="maxent_treebank_pos_tagger" languages="English" name="Treebank Part of Speech Tagger (Maximum entropy)" size="5031883" subdir="taggers" unzip="1" unzipped_size="8587332" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/maxent_treebank_pos_tagger.zip" />
     <package checksum="d596a7bb6505a79e964468d0e95a0608" id="punkt" languages="English" name="Punkt Tokenizer Models" size="188586" subdir="tokenizers" unzip="1" unzipped_size="522770" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/tokenizers/punkt.zip" />
   </packages>
   <collections>
@@ -170,7 +171,8 @@
       <item ref="words" />
       <item ref="ycoe" />
       <item ref="rslp" />
-      <item ref="treebank_tagger" />
+      <item ref="hmm_treebank_pos_tagger" />
+      <item ref="maxent_treebank_pos_tagger" />
       <item ref="punkt" />
       <item ref="book_grammars" />
       <item ref="sample_grammars" />
@@ -204,6 +206,7 @@
       <item ref="wordnet" />
       <item ref="wordnet_ic" />
       <item ref="words" />
+      <item ref="maxent_treebank_pos_tagger" />
       <item ref="punkt" />
       <item ref="book_grammars" />
     </collection>
