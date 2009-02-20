@@ -59,4 +59,5 @@
     <item ref="spanish_grammars"/>
     <item ref="basque_grammars"/>
     <item ref="large_grammars"/>
+    <item ref="tagsets"/>
 </collection>
