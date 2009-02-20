@@ -60,6 +60,7 @@
     <package checksum="9bfb7be6384e80318b1344590e48d6d8" contact="John A. Carroll and Robert C. Moore" id="large_grammars" languages="English" license="See the individual grammar files" name="Large context-free grammars for parser comparison" size="474476" subdir="grammars" unzip="1" unzipped_size="5409088" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/large_grammars.zip" webpage="http://www.informatics.sussex.ac.uk/research/groups/nlp/carroll/cfg-resources/index.html" />
     <package author="" checksum="065169b167ccf8fba0e41a56c0ac0ff0" id="sample_grammars" languages="English" name="Sample Grammars" size="21361" subdir="grammars" unzip="1" unzipped_size="65231" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/sample_grammars.zip" />
     <package author="Kepa Sarasola" checksum="12f66b8e22beadd6ed202e95453465af" id="spanish_grammars" languages="Spanish" name="Grammars for Spanish" size="4047" subdir="grammars" unzip="1" unzipped_size="3980" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/grammars/spanish_grammars.zip" />
+    <package author="UCREL, Lancaster University" checksum="d08ffaa327bed3603d0967509df4ed0d" id="tagsets" languages="English" name="Help on Tagsets" size="16693" subdir="help" unzip="0" unzipped_size="40555" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/help/tagsets.zip" />
     <package author="Viviane Moreira Orengo (vmorengo@inf.ufrgs.br) and Christian Huyck" checksum="648798996224694251834699fa6e55f7" id="rslp" languages="Portuguese" name="RSLP Stemmer (Removedor de Sufixos da Lingua Portuguesa)" size="3805" subdir="stemmers" unzip="1" unzipped_size="7269" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/stemmers/rslp.zip" />
     <package checksum="b879eaf39f3dbb97c551e9df5db93ec9" id="hmm_treebank_pos_tagger" languages="English" name="Treebank Part of Speech Tagger (HMM)" size="750857" subdir="taggers" unzip="1" unzipped_size="750354" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/hmm_treebank_pos_tagger.zip" />
     <package checksum="eb10d0766b03c83123a6d2b297ba9da2" id="maxent_treebank_pos_tagger" languages="English" name="Treebank Part of Speech Tagger (Maximum entropy)" size="5031883" subdir="taggers" unzip="1" unzipped_size="8587332" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/maxent_treebank_pos_tagger.zip" />
@@ -180,6 +181,7 @@
       <item ref="spanish_grammars" />
       <item ref="basque_grammars" />
       <item ref="large_grammars" />
+      <item ref="tagsets" />
     </collection>
     <collection id="book" name="Everything used in the NLTK Book">
       <item ref="brown" />
@@ -210,6 +212,7 @@
       <item ref="maxent_treebank_pos_tagger" />
       <item ref="punkt" />
       <item ref="book_grammars" />
+      <item ref="tagsets" />
     </collection>
   </collections>
 </nltk_data>
