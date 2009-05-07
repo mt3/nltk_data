@@ -1,5 +1,5 @@
 <package id='maxent_ne_chunker'
-         name='Named Entity Chunker (Maximum entropy)'
+         name='ACE Named Entity Chunker (Maximum entropy)'
          languages="English"
          unzip="1"
          />
