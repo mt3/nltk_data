@@ -13,6 +13,7 @@
     <item ref="conll2002"/>
     <item ref="conll2007"/>
     <item ref="dependency_treebank"/>
+    <item ref="europarl_raw"/>
     <item ref="floresta"/>
     <item ref="gazetteers"/>
     <item ref="genesis"/>
@@ -39,6 +40,7 @@
     <item ref="senseval"/>
     <item ref="shakespeare"/>
     <item ref="sinica_treebank"/>
+    <item ref="smultron"/>
     <item ref="state_union"/>
     <item ref="stopwords"/>
     <item ref="swadesh"/>
