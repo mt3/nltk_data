@@ -26,6 +26,7 @@
     <package checksum="54af23bfe81ee22b2d0cc0e28c8399e1" copyright="public domain" id="inaugural" license="public domain" name="C-Span Inaugural Address Corpus" size="321354" subdir="corpora" unzip="1" unzipped_size="773075" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/inaugural.zip" />
     <package author="A Kumaran" checksum="abf96484a742811f4109e19a3a25fe06" id="indian" license="Distributed with permission" name="Indian Language POS-Tagged Corpus" size="199214" subdir="corpora" unzip="1" unzipped_size="1093827" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/indian.zip" />
     <package checksum="68a8716e0233ad9c0ed0947952e4eb3e" id="kimmo" name="PC-KIMMO Data Files" size="186958" subdir="corpora" unzip="1" unzipped_size="814609" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/kimmo.zip" webpage="http://www.sil.org/pckimmo/" />
+    <package author="Kevin Scannell" checksum="77b9b2faf5e08b1986d74f29bb2b3fc1" copyright="Copyright (C) 2010 Kevin Scannell" id="langid" license="GPLv3" name="Language Id Corpus" size="5278711" subdir="corpora" unzip="0" unzipped_size="11256183" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/langid.zip" webpage="http://borel.slu.edu/crubadan/" />
     <package checksum="cf216ae5b37cca24866909f8594c5395" id="mac_morpho" license="Distributed with permission of N&#250;cleo Interinstitucional de Ling&#252;&#237;stica Computacional (NILC), Universidade de S&#227;o Paulo (USP) in S&#227;o Carlos, Universidade Federal de S&#227;o Carlos (UFSCar), Universidade Estadual Paulista (UNESP) of Araraquara." name="MAC-MORPHO: Brazilian Portuguese news text with part-of-speech tags" size="3013904" subdir="corpora" unzip="1" unzipped_size="10941402" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/mac_morpho.zip" webpage="http://www.nilc.icmc.usp.br/lacioweb/" />
     <package author="Machado de Assis" checksum="d186f7d6715479a8bec48b8b8030858e" id="machado" license="Public Domain" name="Machado de Assis -- Obra Completa" size="6151774" subdir="corpora" unzip="0" unzipped_size="14855338" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/machado.zip" webpage="http://machado.mec.gov.br/" />
     <package author="Bo Pang and Lillian Lee" checksum="155de2b77c6834dd8eea7cbe88e93acb" id="movie_reviews" license="Distributed with permission from the authors" name="Sentiment Polarity Dataset Version 2.0" size="4004848" subdir="corpora" unzip="1" unzipped_size="7790571" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/movie_reviews.zip" webpage="http://www.cs.cornell.edu/people/pabo/movie-review-data/" />
@@ -96,6 +97,7 @@
       <item ref="inaugural" />
       <item ref="indian" />
       <item ref="kimmo" />
+      <item ref="langid" />
       <item ref="mac_morpho" />
       <item ref="machado" />
       <item ref="movie_reviews" />
@@ -154,6 +156,7 @@
       <item ref="inaugural" />
       <item ref="indian" />
       <item ref="kimmo" />
+      <item ref="langid" />
       <item ref="mac_morpho" />
       <item ref="machado" />
       <item ref="movie_reviews" />
