@@ -37,6 +37,7 @@
     <item ref="qc"/>
     <item ref="reuters"/>
     <item ref="rte"/>
+    <item ref="semcor"/>
     <item ref="senseval"/>
     <item ref="shakespeare"/>
     <item ref="sinica_treebank"/>
