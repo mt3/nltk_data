@@ -9,6 +9,7 @@
     <item ref="chat80"/>
     <item ref="city_database"/>
     <item ref="cmudict"/>
+    <item ref="comtrans"/>
     <item ref="conll2000"/>
     <item ref="conll2002"/>
     <item ref="conll2007"/>
@@ -21,7 +22,9 @@
     <item ref="ieer"/>
     <item ref="inaugural"/>
     <item ref="indian"/>
+    <item ref="jeita"/>
     <item ref="kimmo"/>
+    <item ref="knbc"/>
     <item ref="langid"/>
     <item ref="mac_morpho"/>
     <item ref="machado"/>
