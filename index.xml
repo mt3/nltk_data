@@ -12,8 +12,8 @@
     <package checksum="684432d4f6384b8f0bd19fee5dc15925" id="cess_esp" license="If you use these corpora for research, please cite thusly: CESS-Cat project (M. Antonia Mart&#237;, MarionaTaul&#233;, Llu&#237;s M&#225;rquez, Manuel Bertran (2007) ?CESS-ECE: A Multilingual and Multilevel Annotated Corpus? in http://www.lsi.upc.edu/~mbertran/cess-ece/publications)." name="CESS-ESP Treebank" size="2220392" subdir="corpora" unzip="1" unzipped_size="13233272" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/cess_esp.zip" webpage="http://clic.ub.edu/cessece/" />
     <package author="David Warren and Fernando Pereira" checksum="6832873fe92996846ac5bb21c5d84eb8" copyright="Copyright (C) 1982 David Warren and Fernando Pereira" id="chat80" license="This program may be used, copied, altered or included in other programs only for academic purposes and provided that the authorship of the initial program is aknowledged.  Use for commercial purposes without the previous written agreement of the authors is forbidden." name="Chat-80 Data Files" size="19209" subdir="corpora" unzip="1" unzipped_size="63817" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/chat80.zip" webpage="http://www.cis.upenn.edu/~pereira/oldies.html" />
     <package checksum="29cbf1aa02ad8abc72dd955fe74f882c" id="city_database" name="City Database" note="A very small database of information about cities" size="1708" subdir="corpora" unzip="1" unzipped_size="4096" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/city_database.zip" />
-    <package checksum="4cc92046590030943ddd8eec8276b11a" copyright="Copyright 1998 Carnegie Mellon University" id="cmudict" license="Use of this dictionary, for any research or commercial purpose, is completely unrestricted.  If you use or redistribute this material, we would appreciate acknowlegement of its origin." name="The Carnegie Mellon Pronouncing Dictionary (0.6)" size="896016" subdir="corpora" unzip="1" unzipped_size="3824640" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/cmudict.zip" webpage="ftp://ftp.cs.cmu.edu/project/speech/dict/" />
-    <package author="Reinhard Rapp" checksum="f6263bf92461806787163455e4a25ca2" id="comtrans" name="ComTrans Corpus Sample" size="11279" subdir="corpora" unzip="0" unzipped_size="29624" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/comtrans.zip" webpage="http://www.fask.uni-mainz.de/user/rapp/comtrans/" />
+    <package checksum="58f743ff818b983b89ef9302b509fc41" copyright="Copyright 1998 Carnegie Mellon University" id="cmudict" license="Use of this dictionary, for any research or commercial purpose, is completely unrestricted.  If you use or redistribute this material, we would appreciate acknowlegement of its origin." name="The Carnegie Mellon Pronouncing Dictionary (0.6)" size="896069" subdir="corpora" unzip="1" unzipped_size="3824638" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/cmudict.zip" webpage="ftp://ftp.cs.cmu.edu/project/speech/dict/" />
+    <package author="Reinhard Rapp" checksum="8e1e34e2f052d8188fd877b2c821b42d" id="comtrans" name="ComTrans Corpus Sample" size="11904518" subdir="corpora" unzip="0" unzipped_size="35387522" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/comtrans.zip" webpage="http://www.fask.uni-mainz.de/user/rapp/comtrans/" />
     <package checksum="9529b285edd5fe47271da69df1052301" contact="Erik Tjong Kim Sang (erikt@uia.ua.ac.be)" id="conll2000" name="CONLL 2000 Chunking Corpus" size="756607" subdir="corpora" unzip="1" unzipped_size="3495903" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2000.zip" webpage="http://www.cnts.ua.ac.be/conll2000/chunking/" />
     <package checksum="67bb4ca75fa81544d42a159524726e78" id="conll2002" name="CONLL 2002 Named Entity Recognition Corpus" size="1867449" subdir="corpora" unzip="1" unzipped_size="7785638" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2002.zip" webpage="http://www.cnts.ua.ac.be/conll2002/ner/" />
     <package checksum="b9015928e35c41f0695525289df5208f" contact="Kepa Sarasola" copyright="Copyright (C) 2007 The University of the Basque Country" id="conll2007" license="Creative Commons Attribution-NonCommercial-NoDerivativeWorks license" name="Dependency Treebanks from CoNLL 2007 (Catalan and Basque Subset)" size="1242958" subdir="corpora" unzip="0" unzipped_size="6399295" url="http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/conll2007.zip" webpage="http://nextens.uvt.nl/depparse-wiki/DataDownload" />
@@ -89,6 +89,7 @@
       <item ref="chat80" />
       <item ref="city_database" />
       <item ref="cmudict" />
+      <item ref="comtrans" />
       <item ref="conll2000" />
       <item ref="conll2002" />
       <item ref="conll2007" />
@@ -100,7 +101,9 @@
       <item ref="ieer" />
       <item ref="inaugural" />
       <item ref="indian" />
+      <item ref="jeita" />
       <item ref="kimmo" />
+      <item ref="knbc" />
       <item ref="langid" />
       <item ref="mac_morpho" />
       <item ref="machado" />
@@ -148,6 +151,7 @@
       <item ref="chat80" />
       <item ref="city_database" />
       <item ref="cmudict" />
+      <item ref="comtrans" />
       <item ref="conll2000" />
       <item ref="conll2002" />
       <item ref="conll2007" />
@@ -160,7 +164,9 @@
       <item ref="ieer" />
       <item ref="inaugural" />
       <item ref="indian" />
+      <item ref="jeita" />
       <item ref="kimmo" />
+      <item ref="knbc" />
       <item ref="langid" />
       <item ref="mac_morpho" />
       <item ref="machado" />
